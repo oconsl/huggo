@@ -1,0 +1,33 @@
+{
+  "name": "huggo",
+  "version": "0.1.0",
+  "description": "",
+  "type": "module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "compile": "tsup --minify",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/gradient-string": "1.1.4",
+    "@types/inquirer": "9.0.6",
+    "tsup": "7.2.0",
+    "typescript": "5.2.2"
+  },
+  "dependencies": {
+    "gradient-string": "2.0.2",
+    "inquirer": "9.2.11"
+  },
+  "files": [
+    "dist",
+    "templates"
+  ],
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "bin": {
+    "huggo": "./dist/index.js"
+  }
+}
