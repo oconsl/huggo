@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+dist/
+
+# Prisma
+*.db
+*.db-journal
+prisma/migrations/*/*.sql
+!prisma/migrations/migration_lock.toml 
+# Keep if you want to track migration history, remove if not.
+
+# Environment
+.env
+.env*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
